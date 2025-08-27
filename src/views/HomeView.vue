@@ -1,17 +1,9 @@
-<script lang="ts">
-import { defineComponent } from 'vue'
-
-export default defineComponent({
-  data() {
-    return {
-      list: [],
-    }
-  },
-})
+<script lang="ts" setup>
+import MainBanner from '@/components/MainBanner.vue'
 </script>
 
 <template>
-  <div class="container"></div>
+  <div class="">
+    <MainBanner />
+  </div>
 </template>
-
-<style></style>
