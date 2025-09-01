@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import BaseButton from '@/components/Button/BaseButton.vue'
 import CardIngredients from '@/components/CardIngredients.vue'
 import DefaultButton from '@/components/DefaultButton.vue'
 import FaviconGreen from '@/components/icons/FaviconGreen.vue'
@@ -42,6 +43,7 @@ import RecipeCard from '@/components/RecipeCard.vue'
         title="Receita com imagem"
         image="https://images.pexels.com/photos/33598446/pexels-photo-33598446.jpeg"
       />
+      <BaseButton>Base Button</BaseButton>
     </div>
   </div>
 </template>
